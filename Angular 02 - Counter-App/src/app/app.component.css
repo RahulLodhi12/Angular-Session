@@ -1,0 +1,35 @@
+.btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.count{
+    width: 100px;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.btn:hover{
+    border: 2px solid gold;
+}

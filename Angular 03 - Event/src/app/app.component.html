@@ -1,0 +1,17 @@
+<h1 style="background-color: blueviolet;">{{title}}</h1>
+
+<h1 style="background-color: beige;">Click Event</h1>
+<button (click)="myClickEvent($event)">Click Here</button>
+
+<h1 style="background-color: black; color: gold;">Mouse Event</h1>
+<div (mouseenter)="myMouseEvent($event)" style="width: 100px; height: 100px; background-color: green;"></div>
+
+<hr>
+
+<div (mouseleave)="myMouseEvent($event)" style="width: 100px; height: 100px; background-color: blue;"></div>
+
+<h1 style="background-color: burlywood;">Input Event</h1>
+Input: <input type="text" (input)="myInputEvent($event)">
+
+<h1 style="background-color: cornflowerblue;">Focus & Blur Event</h1>
+Input: <input type="text" (focus)="myFocus($event)" (blur)="myBlur($event)">

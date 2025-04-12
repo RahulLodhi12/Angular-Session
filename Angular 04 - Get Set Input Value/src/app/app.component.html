@@ -1,0 +1,11 @@
+<h1 style="background-color: turquoise;">{{title}}</h1>
+
+
+<h2>UserName is: {{displayName}}</h2>
+UserName: <input type="text" value="{{myName}}" (input)="enterName($event)"> <br> <br>
+<button (click)="myGetName($event)">Get Name</button>
+<button (click)="mySetName($event)">Set Name</button>
+
+<h1 style="background-color: tan;">Date</h1>
+Birthday: <input type="date" [(ngModel)]="myDate">
+<h3>Date: {{myDate}} | yyyy-mm-dd</h3>
