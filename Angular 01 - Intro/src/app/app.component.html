@@ -1,2 +1,22 @@
 <h1 style="background-color: chocolate;">Welcome to Angular Learning</h1>
 <h2>{{title}}</h2>
+
+<h3>{{myname}}</h3>
+
+<h1 style="background-color: yellowgreen;">Interpolation in Angular</h1>
+
+<h3>Execute Javascript code in HTML using Interpolation: {{2+4}}</h3>
+<h3>Check Equal: {{x==y}}</h3>
+<h3>UpperCase: {{'hello'.toUpperCase()}}</h3>
+<h3>UpperCase: {{myname.toUpperCase()}}</h3>
+
+<app-login></app-login>
+
+<h1 style="background-color: purple; color: gold;">Function Call on Button Click</h1>
+<button (click)="myFunction()" style="height: 40px; width: 100px;">Click Here</button>
+
+<h1 style="background-color:thistle; color: blue;">Define Data Type</h1>
+<h3>Current Data: {{mydata}}</h3>
+<button (click)="myUpdate()">Update Data</button>
+<h3>Sum Click Button</h3>
+<button (click)="mySum(30,40)">Sum</button>
